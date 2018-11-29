@@ -180,6 +180,8 @@ public class NTupleSystem implements BanditLandscapeModel {
         // idea is simple: we just provide a summary over all
         // the samples, comparing each to the maximum in that N-Tuple
 
+        // todo check whether we need the 1+
+
         double[] vec = new double[tuples.size()];
         for (int i = 0; i < tuples.size(); i++) {
             NTuple tuple = tuples.get(i);

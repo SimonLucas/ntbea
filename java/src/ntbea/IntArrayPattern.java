@@ -48,6 +48,8 @@ public class IntArrayPattern implements Comparable<IntArrayPattern> {
     }
 
     public  boolean equals(Object pattern) {
+        // Arrays.equals()
+
         try {
             IntArrayPattern p = (IntArrayPattern) pattern;
             for (int i = 0; i < v.length; i++) {
