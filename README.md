@@ -22,7 +22,7 @@ To understand the algorithm see our IEEE CEC 2018 paper (nominated for the best 
 https://arxiv.org/abs/1802.05991
 
 For a comparison with other approaches see our AAAI Games and Simulations for AI workshop paper:
-https://github.com/SimonLucas/ntbea/docs/aaai-workshop-2019-NTBEA
+https://github.com/SimonLucas/ntbea/docs/aaai-workshop-2019-NTBEA.pdf
 
 
 ## Citing
