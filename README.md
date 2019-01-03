@@ -18,16 +18,37 @@ A modified form of bandit equation (UCB with a type of progressive widening) is 
 to balance exploiting what already appear to be good parameter settings with exploring
 those that have not yet been sampled much.
 
+In addition to providing efficient optimisation NTBEA also provides detailed statistics
+on each parameter choice.
+
 To understand the algorithm see our IEEE CEC 2018 paper (nominated for the best paper award)
 https://arxiv.org/abs/1802.05991
 
 For a comparison with other approaches see our AAAI Games and Simulations for AI workshop paper:
-https://github.com/SimonLucas/ntbea/docs/aaai-workshop-2019-NTBEA.pdf
+https://github.com/SimonLucas/ntbea/tree/master/docs/aaai-workshop-2019-NTBEA.pdf
+
+## Versions
+
+This repo contains the Java version of NTBEA.
+
+The Python version is here:  https://github.com/bam4d/NTBEA
+
+## See also
+
+Sequential Model Based Algorithm Configuration (SMAC) - a well established general algorithm optimiser - works with continuous
+and discrete parameter values:
+https://github.com/automl/SMAC3
+
+
+
+Nevergrad - continuous optimisiation toolbox:
+https://github.com/facebookresearch/nevergrad
+
 
 
 ## Citing
 
-### The first paper on NTBEA and its use for Game Tuning
+### The first paper on NTBEA and its use for Game Tuning:
 
 ```bibtex
 @inproceedings{NTBEA-Game-Tuning,
@@ -38,7 +59,7 @@ https://github.com/SimonLucas/ntbea/docs/aaai-workshop-2019-NTBEA.pdf
   year={2017}
 }
 ```
-### NTBEA Applied to Game Agent Tuning
+### NTBEA Applied to Game Agent Tuning:
 
 ```bibtex
 @article{NTBEA-AgentTuning,
@@ -49,7 +70,7 @@ https://github.com/SimonLucas/ntbea/docs/aaai-workshop-2019-NTBEA.pdf
   year={2018}
 }
 ```
-### NTBEA Applied to Game Agent Tuning and Compared with alternatives such as SMAC and CMA-ES
+### NTBEA Applied to Game Agent Tuning and Compared with alternatives such as SMAC and CMA-ES:
 
 ```bibtex
 @misc{NTBEA-efficient-opt,
