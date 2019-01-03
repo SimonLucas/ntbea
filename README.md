@@ -95,3 +95,7 @@ https://github.com/facebookresearch/nevergrad
     howpublished = {\url{https://github.com/SimonLucas/ntbea}},
 }
 ```
+
+## License
+
+`NTBEA` is released under the MIT license. See [LICENSE](docs/LICENSE) for additional details.
