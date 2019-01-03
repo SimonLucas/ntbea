@@ -19,7 +19,7 @@ to balance exploiting what already appear to be good parameter settings with exp
 those that have not yet been sampled much.
 
 In addition to providing efficient optimisation NTBEA also provides detailed statistics
-on each parameter choice.
+on each parameter choice.  See the example here: [Sample Output](docs/SampleOutput.md).
 
 To understand the algorithm see our IEEE CEC 2018 paper (nominated for the best paper award)
 https://arxiv.org/abs/1802.05991
@@ -43,6 +43,9 @@ https://github.com/automl/SMAC3
 
 Nevergrad - continuous optimisiation toolbox:
 https://github.com/facebookresearch/nevergrad
+
+CMA-ES:
+http://cma.gforge.inria.fr/
 
 
 
