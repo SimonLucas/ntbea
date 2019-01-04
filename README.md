@@ -44,7 +44,7 @@ https://github.com/automl/SMAC3
 
 
 
-Nevergrad - continuous optimisiation toolbox:
+Nevergrad - continuous optimisation toolbox:
 https://github.com/facebookresearch/nevergrad
 
 CMA-ES:
