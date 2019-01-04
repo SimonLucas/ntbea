@@ -11,7 +11,7 @@ what makes a reasonable discretisation for each parameter.
 ## Aims
 
 NTBEA was developed to handle noisy optimisation problems in a sample-efficient way. The algorithm
-analyses the contribution of each individual parameter values, together with combinations of parameter
+analyses the contribution of each individual parameter value, together with combinations of parameter
 values.  Each combination is referred to as an N-Tuple.  Typically we model each parameter individually
 (the 1-Tuples), then each pair (2-Tuples), sometimes the 3-Tuples and nearly always the single N-Tuple
 (where the search space is N-dimensional).
