@@ -14,15 +14,19 @@ have their maximum value of 3 then the noise-free fitness is 0.0.
 ## Output explained:
 
 
-First we have the 5 1-tuples (1 for each of the 5 dimensions)
+First we have the 5 1-tuples (1 for each of the 5 parameters)
 
-Then we have the 5*4/2 = 10  (1 for each distinct pair)
+Then we have the 5*4/2 = 10  2-tuples (1 for each distinct pair of parameters)
 
 And finally the single 5-tuple.
 
 For each row we have the parameter value indices followed by the number of
 times it was sampled, the mean value and the standard deviation (which will be Nan if
 there are fewer than two samples).
+
+The algorithm found one of the optima (solution \[2,3,3,3,3\]) with a noise-free
+fitness of 14.0, but sampled it more than 2,000 times.  This suggests that the
+sample budget of 5,000 was overkill for this problem.
 
 ## Sample Output
 

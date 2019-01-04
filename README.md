@@ -4,14 +4,16 @@
 
 The NTBEA combines multi-armed bandits (actually combinatorial multi-armed bandits) with an evolutionary 
 algorithm to provide a sample-efficient optimisation algorithm.  Currently the algorithm works only in discrete search spaces.
-Continuous parameters can be handled by discretising them.
+Continuous parameters can be handled by discretising them.  We're working on an extended version that
+will also handle continuous parameters.  Meanwhile you'll need to use some insight in to
+what makes a reasonable discretisation for each parameter.
 
 ## Aims
 
 NTBEA was developed to handle noisy optimisation problems in a sample-efficient way. The algorithm
 analyses the contribution of each individual parameter values, together with combinations of parameter
 values.  Each combination is referred to as an N-Tuple.  Typically we model each parameter individually
-(the 1-Tuples), then each pair (2-Tuples), sometimes the 3-Tuples and nearly always the N-Tuples
+(the 1-Tuples), then each pair (2-Tuples), sometimes the 3-Tuples and nearly always the single N-Tuple
 (where the search space is N-dimensional).
 
 A modified form of bandit equation (UCB with a type of progressive widening) is used
@@ -24,8 +26,9 @@ on each parameter choice.  See the example here: [Sample Output](docs/SampleOutp
 To understand the algorithm see our IEEE CEC 2018 paper (nominated for the best paper award)
 https://arxiv.org/abs/1802.05991
 
-For a comparison with other approaches see our AAAI Games and Simulations for AI workshop paper:
-https://github.com/SimonLucas/ntbea/tree/master/docs/aaai-workshop-2019-NTBEA.pdf
+For a comparison with other approaches see our [AAAI Games and Simulations for AI](https://www.gamesim.ai) workshop paper:
+https://arxiv.org/abs/1901.00723
+
 
 ## Versions
 
