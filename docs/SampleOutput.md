@@ -10,8 +10,14 @@ of each point is the sum of the indices (but with a trap) plus Gaussian noise wi
 mean and standard deviation of 1.0.  The trap function is that if all 5 parameters
 have their maximum value of 3 then the noise-free fitness is 0.0.
 
+## Running the example
 
-## Output explained:
+```
+java ntbea.TestNTBEA
+```
+
+
+## Output explained
 
 
 First we have the 5 1-tuples (1 for each of the 5 parameters)
@@ -28,7 +34,7 @@ The algorithm found one of the optima (solution \[2,3,3,3,3\]) with a noise-free
 fitness of 14.0, but sampled it more than 2,000 times.  This suggests that the
 sample budget of 5,000 was overkill for this problem.
 
-## Sample Output
+## Sample Output:
 
 ```
 Set neighbours to: 50
