@@ -45,7 +45,7 @@
         <counts>
           <entry key="JAVA" value="113" />
           <entry key="Kotlin" value="100" />
-          <entry key="Markdown" value="244" />
+          <entry key="Markdown" value="261" />
         </counts>
       </usages-collector>
     </session>
@@ -102,8 +102,8 @@
         <entry file="file://$PROJECT_DIR$/../README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="563">
-                <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
+              <first_editor relative-caret-position="413">
+                <caret line="94" column="29" selection-start-line="94" selection-start-column="29" selection-end-line="94" selection-end-column="29" />
               </first_editor>
               <second_editor />
             </state>
@@ -599,8 +599,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="563">
-            <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
+          <first_editor relative-caret-position="413">
+            <caret line="94" column="29" selection-start-line="94" selection-start-column="29" selection-end-line="94" selection-end-column="29" />
           </first_editor>
           <second_editor />
         </state>

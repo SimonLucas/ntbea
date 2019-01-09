@@ -92,7 +92,7 @@ http://cma.gforge.inria.fr/
 ### NTBEA Applied to Modelling Player Experience:
 
 ```bibtex
-@misc{NTBEA-efficient-opt,
+@misc{NTBEA-player-experience,
     author = {Kamolwan Kunanusont, Simon M. Lucas, Diego Perez-Liebana},
     title = {{Modelling Player Experience with the N-Tuple Bandit Evolutionary Algorithm}},
     year = {2018},
