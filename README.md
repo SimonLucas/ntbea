@@ -89,6 +89,20 @@ http://cma.gforge.inria.fr/
     howpublished = {\url{https://www.gamesim.ai/}},
 }
 ```
+### NTBEA Applied to Modelling Player Experience:
+
+```bibtex
+@misc{NTBEA-efficient-opt,
+    author = {Kamolwan Kunanusont, Simon M. Lucas, Diego Perez-Liebana},
+    title = {{Modelling Player Experience with the N-Tuple Bandit Evolutionary Algorithm}},
+    year = {2018},
+    publisher = {AAAI},
+    journal = {Proceedings of the Artificial intelligence and 
+               Interactive Digital Entertainment (AIIDE)},
+    howpublished = {\url{http://diego-perez.net/papers/aiideScoreProgression.pdf}},
+}
+```
+
 ### This repository:
 
 ```bibtex
