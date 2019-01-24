@@ -27,7 +27,9 @@ To understand the algorithm see our IEEE CEC 2018 paper (nominated for the best 
 https://arxiv.org/abs/1802.05991
 
 For a comparison with other approaches see our [AAAI Games and Simulations for AI](https://www.gamesim.ai) workshop paper:
-https://arxiv.org/abs/1901.00723
+https://arxiv.org/abs/1901.00723 (or see quick summary in our [poster](docs/AAAIWorkshopPoster.pdf))
+
+
 
 
 ## Versions
