@@ -159,16 +159,16 @@ public class StatSummary implements Comparable<StatSummary> {
         return this;
     }
 
-    // note: this method removes from mean and standard deviation
-    // but cannot efficently adjudt min and max
-    public void removeFromMean(double d) {
-        if (n < 1) {
-            n--;
-            sum -= d;
-            sumsq -= d * d;
-            valid = false;
-        }
-    }
+//    // note: this method removes from mean and standard deviation
+//    // but cannot efficently adjudt min and max
+//    public void removeFromMean(double d) {
+//        if (n >= 1) {
+//            n--;
+//            sum -= d;
+//            sumsq -= d * d;
+//            valid = false;
+//        }
+//    }
 
     public StatSummary add(Number n) {
         add(n.doubleValue());
