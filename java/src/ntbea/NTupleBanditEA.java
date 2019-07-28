@@ -17,14 +17,14 @@ public class NTupleBanditEA implements EvoAlg {
     public double kExplore = 100.0; // 1.0; // Math.sqrt(0.4);
     // the number of neighbours to explore around the current point each time
     // they are only explored IN THE FITNESS LANDSCAPE MODEL, not by sampling the fitness function
-    int nNeighbours = 50;
+    int nNeighbours = 100;
 
 
     // when searching for the best solution overall, at the end of the run
     // we ask the NTupleMemory to explore a neighbourhood around each
     // of the points added during the search
     // this param controls the size of the neighbourhood
-    int neighboursWhenFindingBest = 10;
+    int neighboursWhenFindingBest = 1000;
     static double defaultEpsilon = 0.5;
     double epsilon = defaultEpsilon;
 
@@ -196,8 +196,8 @@ public class NTupleBanditEA implements EvoAlg {
 //        System.out.println(ss);
 
         // int[] solution = banditLandscapeModel.getBestSolution();
-        int[] solution = banditLandscapeModel.getBestOfSampled();
-        // int[] solution = banditLandscapeModel.getBestOfSampledPlusNeighbours(neighboursWhenFindingBest);
+        // int[] solution = banditLandscapeModel.getBestOfSampled();
+        int[] solution = banditLandscapeModel.getBestOfSampledPlusNeighbours(neighboursWhenFindingBest);
         logger.keepBest(solution, evaluator.evaluate(solution));
         return solution;
     }

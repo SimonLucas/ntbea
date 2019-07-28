@@ -13,16 +13,16 @@ import java.util.Arrays;
 
 public class TestNTBEA {
     public static void main(String[] args) {
-        int nDims = 5;
-        int mValues = 4;
-        double noiseLevel = 1.0;
-        boolean useTrap = true;
+        int nDims = 20;
+        int mValues = 2;
+        double noiseLevel = 0.0;
+        boolean useTrap = false;
         // EvalMaxM is like Noisy OneMax but generalised to M values
         // instead of binary
         EvalMaxM problem = new EvalMaxM(nDims, mValues, noiseLevel).setTrap(useTrap);
 
 
-        double kExplore = 2;
+        double kExplore = 20;
         double epsilon = 0.5;
         NTupleBanditEA banditEA = new NTupleBanditEA().setKExplore(kExplore).setEpsilon(epsilon);
         // set a particlar NTuple System as the model
@@ -30,13 +30,13 @@ public class TestNTBEA {
         NTupleSystem model = new NTupleSystem();
         // set up a non-standard tuple pattern
         model.use1Tuple = true;
-        model.use2Tuple = true;
+        model.use2Tuple = false;
         model.use3Tuple = false;
-        model.useNTuple = true;
+        model.useNTuple = false;
         banditEA.setModel(model);
 
         ElapsedTimer timer = new ElapsedTimer();
-        int nEvals = 5000;
+        int nEvals = 60;
         int[] solution = banditEA.runTrial(problem, nEvals);
 
         System.out.println("Report: ");

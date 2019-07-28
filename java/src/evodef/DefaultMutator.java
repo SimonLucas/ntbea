@@ -26,8 +26,8 @@ public class DefaultMutator implements Mutator {
         System.out.println();
         DefaultMutator mutator1 = new DefaultMutator(new EvalMaxM(50, 10));
         System.out.println(mutator1);
-        mutator1.flipAtLeastOneValue = false;
-        mutator1.pointProb = 3.0;
+        mutator1.flipAtLeastOneValue = true;
+        mutator1.pointProb = 1.0;
         System.out.println(mutator1);
 
         DefaultMutator mutator2 = new DefaultMutator(new EvalMaxM(50, 2));
@@ -51,7 +51,7 @@ public class DefaultMutator implements Mutator {
     static Random random = new Random();
 
     public boolean totalRandomChaosMutation = false;
-    public static double defaultPointProb = 1.0;
+    public static double defaultPointProb = 2.0;
     public static boolean flipAtLeastOneValueDefault = true;
 
     public boolean flipAtLeastOneValue = flipAtLeastOneValueDefault;
