@@ -7,13 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01084561-258e-4c9b-b86f-463afcd8644d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ntbea_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ntbea/META-INF/ntbea.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ntbea/META-INF/ntbea.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ntbea/kntbea/test/IntArraySpeedTestKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ntbea/kntbea/test/IntArraySpeedTestKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ntbea/ntbea/TestNTBEA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ntbea/ntbea/TestNTBEA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ntbea/TestNTBEA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ntbea/TestNTBEA.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
