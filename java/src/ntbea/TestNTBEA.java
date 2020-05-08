@@ -13,9 +13,9 @@ import java.util.Arrays;
 
 public class TestNTBEA {
     public static void main(String[] args) {
-        int nDims = 20;
+        int nDims = 5;
         int mValues = 2;
-        double noiseLevel = 0.0;
+        double noiseLevel = 1.0;
         boolean useTrap = false;
         // EvalMaxM is like Noisy OneMax but generalised to M values
         // instead of binary
@@ -30,9 +30,9 @@ public class TestNTBEA {
         NTupleSystem model = new NTupleSystem();
         // set up a non-standard tuple pattern
         model.use1Tuple = true;
-        model.use2Tuple = false;
+        model.use2Tuple = true;
         model.use3Tuple = false;
-        model.useNTuple = false;
+        model.useNTuple = true;
         banditEA.setModel(model);
 
         ElapsedTimer timer = new ElapsedTimer();
